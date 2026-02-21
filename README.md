@@ -103,5 +103,6 @@ The small gap (~2%) between training and test accuracy indicates good generaliza
 * Practical NLP pipeline development
 * Balanced sentiment prediction performance
 * Strong baseline model with room for advanced improvements
+* This implementation is based on a tutorial from GeeksforGeeks and was developed for practice purposes.
 
 ---
