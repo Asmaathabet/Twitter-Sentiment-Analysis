@@ -15,12 +15,12 @@ The dataset used in this project is the **Sentiment140 dataset** from Kaggle:
 The dataset contains 1.6 million labeled tweets.
 Each record includes:
 
-* **target** – Tweet polarity (`0 = Negative`, `4 = Positive`)
-* **id** – Unique tweet identifier
-* **date** – Timestamp of the tweet
-* **flag** – Query associated with the tweet (`NO_QUERY` if none)
-* **user** – Username of the tweet author
-* **text** – The content of the tweet
+- **target** – Tweet polarity (`0 = Negative`, `4 = Positive`)
+- **id** – Unique tweet identifier
+- **date** – Timestamp of the tweet
+- **flag** – Query associated with the tweet (`NO_QUERY` if none)
+- **user** – Username of the tweet author
+- **text** – The content of the tweet
 
 ---
 
@@ -28,19 +28,19 @@ Each record includes:
 
 ### 🔹 Data Preprocessing
 
-* Text cleaning (removing punctuation, URLs, special characters)
-* Lowercasing
-* Stopword removal
-* Tokenization
+- Text cleaning (removing punctuation, URLs, special characters)
+- Lowercasing
+- Stopword removal
+- Tokenization
 
 ### 🔹 Feature Engineering
 
-* Text vectorization using CountVectorizer / TF-IDF
-* Conversion of tweet text into numerical feature vectors
+- Text vectorization using CountVectorizer / TF-IDF
+- Conversion of tweet text into numerical feature vectors
 
 ### 🔹 Model Training
 
-* Supervised machine learning classifier trained on labeled tweet data
+- Supervised machine learning classifier trained on labeled tweet data
 
 ---
 
@@ -48,8 +48,8 @@ Each record includes:
 
 ### 🔹 Accuracy
 
-* **Training Accuracy:** 79.87%
-* **Test Accuracy:** 77.67%
+- **Training Accuracy:** 79.87%
+- **Test Accuracy:** 77.67%
 
 The small gap (~2%) between training and test accuracy indicates good generalization with no significant overfitting.
 
@@ -62,46 +62,46 @@ The small gap (~2%) between training and test accuracy indicates good generaliza
 | 0 (Negative) | 0.79      | 0.76   | 0.77     | 160,000 |
 | 1 (Positive) | 0.77      | 0.80   | 0.78     | 160,000 |
 
-* **Overall Accuracy:** 78%
-* **Macro Average F1-Score:** 0.78
-* **Weighted Average F1-Score:** 0.78
+- **Overall Accuracy:** 78%
+- **Macro Average F1-Score:** 0.78
+- **Weighted Average F1-Score:** 0.78
 
 ---
 
 ### 🔹 Interpretation
 
-* The model achieves balanced performance across both sentiment classes.
-* Precision and recall values are consistent, indicating stable classification behavior.
-* Similar training and testing accuracy suggests the model is not overfitting.
-* Performance is solid for a classical machine learning approach on noisy social media text.
+- The model achieves balanced performance across both sentiment classes.
+- Precision and recall values are consistent, indicating stable classification behavior.
+- Similar training and testing accuracy suggests the model is not overfitting.
+- Performance is solid for a classical machine learning approach on noisy social media text.
 
 ---
 
 ## 🚀 Future Improvements
 
-* Hyperparameter tuning
-* Use of n-grams and advanced vectorization techniques
-* Implementation of deep learning models (LSTM / GRU)
-* Transformer-based models (BERT)
-* Deployment as an API or web application
+- Hyperparameter tuning
+- Use of n-grams and advanced vectorization techniques
+- Implementation of deep learning models (LSTM / GRU)
+- Transformer-based models (BERT)
+- Deployment as an API or web application
 
 ---
 
 ## 🛠 Tech Stack
 
-* Python
-* Pandas & NumPy
-* Scikit-learn
-* NLP preprocessing techniques
-* Jupyter Notebook
+- Python
+- Pandas & NumPy
+- Scikit-learn
+- NLP preprocessing techniques
+- Jupyter Notebook
 
 ---
 
 ## 💡 Key Takeaways
 
-* Large-scale text classification implementation
-* Practical NLP pipeline development
-* Balanced sentiment prediction performance
-* Strong baseline model with room for advanced improvements
+- Large-scale text classification implementation
+- Practical NLP pipeline development
+- Balanced sentiment prediction performance
+- Strong baseline model with room for advanced improvements.
 
 ---
